@@ -36,7 +36,7 @@ nav ul li{
 
 }
 nav ul li {
-    color:white;
+    color:blueviolet;
     font-weight: bold;
     text-transform: capitalize;
     text-decoration: none;
@@ -59,14 +59,18 @@ nav ul li a:hover{
 }
 .content{
     position: absolute;
-    top: 50%;
-    left:8%;
-    transform: translateY(-50%)
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
 }
 h1{
     font-size: 75px;
     color:white;
     margin: 20px 0px 20px;
+    margin-top: 100px;
 }
 h3{
     font-size: 25px;
@@ -74,14 +78,16 @@ h3{
     margin-bottom:50px ;
 }
 h4{
-    color:rgba(151, 100, 5, 0.877);
+    color:aliceblue;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 40px;
+    margin-top: 100px;
 }
 .newslatter form{
     width: 380px;
     max-width: 100%;
-    position:relative;
+    position:center;
+    align-items: center;
 }
 .newslatter form input:first-child{
     width: 100%;
@@ -214,22 +220,23 @@ button:hover{
 }
 .contact{
     width: 100%;
-    height:290px;
+    height:100vh;
     background-color: black;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    color: purple;
 }
 .contact p{
-    color: white;
+    color:white;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
 }
 .contact .button-two{
     background-color:rgba(151, 100, 5, 0.877);
-    color: white;
+    color:white;
     text-decoration: none;
     border: 2px solid transparent;
     padding: 9px 22px;
